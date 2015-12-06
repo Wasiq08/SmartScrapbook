@@ -1,0 +1,87 @@
+/*
+    Stylesheet by Aneesh Bhatnagar
+    Website: www.slashcoding.com
+*/
+
+#backgroundPopup { 
+    z-index:1;
+    position: fixed;
+    display:none;
+    height:100%;
+    width:100%;
+    background:#000000;  
+    top:0px;  #
+    left:0px;
+}
+#Popup {
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 10px solid #ccc;
+    border-radius: 30px 3px 30px 3px;
+    color: #6666CC;
+    display: none;
+    font-size: 15px;
+    left: 61%;
+    margin-left: -402px;
+    position: fixed;
+    top: 30%;
+    width: 500px;
+    z-index: 2;
+}
+
+#create
+{
+    width: 
+}
+div.loader {
+    background: url("images/loading.gif") no-repeat scroll 0 0 #000000;
+    height: 32px;
+    width: 32px;
+    display: none;
+    z-index: 2;
+    top: 40%;
+    left: 50%;
+    position:fixed;
+    margin-left: -10px;
+}
+
+div.close {
+    background: url("images/closebox.png") no-repeat scroll 0 0 #FFFFFF;
+    bottom: 27px;
+    cursor: pointer;
+    float: right;
+    height: 50px;
+    left: 17px;
+    position: relative;
+    width: 30px;
+}
+
+span.popup_tooltip {
+    background: none repeat scroll 0 0 #000000;
+    border-radius: 20px 2px 2px 2px;
+    color: #FFFFFF;
+    display: none;
+    font-size: 11px;
+    height: 30px;
+    opacity: 0.7;
+    padding: 4px 3px 2px 5px;
+    position: absolute;
+    right: -62px;
+    text-align: center;
+    top: -51px;
+    width: 93px;
+}
+span.arrow {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 7px solid #000000;
+    display: block;
+    height: 1px;
+    left: 40px;
+    position: relative;
+    top: 3px;
+    width: 1px;
+}
+div#popup_content {
+    margin: 40px 75px;
+}
